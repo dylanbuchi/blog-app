@@ -1,0 +1,7 @@
+{% extends 'base.html' %} {% block content %}{% for blog_post in blog_posts %}
+
+<div class="div-blog-post-entry">
+  <h2><a href="">{{ blog_post.title }}</a></h2>
+  <p class="blog-post-text">{{ blog_post.text }}</p>
+</div>
+{% endfor %} {% endblock content %}

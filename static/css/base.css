@@ -1,0 +1,25 @@
+/* base.html */
+
+.blog-app-title-name {
+  color: rgb(11, 63, 65);
+  padding: 20px;
+}
+a {
+  text-decoration: none;
+}
+
+/* home.html */
+
+.div-blog-post-entry {
+  padding: 20px;
+}
+
+.div-blog-post-entry a {
+  color: rgb(46, 85, 87);
+}
+.div-blog-post-entry a:hover {
+  color: rgb(82, 169, 173);
+}
+.blog-post-text {
+  font-size: 20px;
+}
